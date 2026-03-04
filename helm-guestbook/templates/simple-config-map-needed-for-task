@@ -1,7 +1,0 @@
-apiVersion: v1
-data:
-  beshoy: beval
-  shoy: val
-kind: ConfigMap
-metadata:
-  name: shoy
