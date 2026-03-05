@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: presync-job
+spec:
+  template:
+    metadata: {}
+    spec:
+      containers:
+        - image: busybox
+          name: presync-job
+          command:
+            - sleep
+            - "10"
