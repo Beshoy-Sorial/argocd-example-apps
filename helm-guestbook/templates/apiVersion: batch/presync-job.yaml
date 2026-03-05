@@ -6,6 +6,7 @@ spec:
   template:
     metadata: {}
     spec:
+      restartPolicy: Never
       containers:
         - image: busybox
           name: presync-job
